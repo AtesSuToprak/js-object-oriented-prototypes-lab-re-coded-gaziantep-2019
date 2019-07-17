@@ -8,7 +8,7 @@
  
  let backSlappingGene = new BoardMember("Mr. Gene", "Delaware", "business");
  
-  this.prototype.veto = function(){     return 'No, I must disagree'
+  BoardMember.prototype.veto = function(){     return 'No, I must disagree'
   };
   this.prototype.approve = function(){
     return 'You can do that!'
