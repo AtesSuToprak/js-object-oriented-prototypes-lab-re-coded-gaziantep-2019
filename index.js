@@ -22,3 +22,6 @@
      return `Hi, my name is ${this.name}. I am from ${this.homeState}, and I was trained in ${this.training}.`
    };
  
+ let polishedBoardMember = new BoardMember("Mr. Polished", "New York", "law");
+ 
+ let backSlappingGene = new BoardMember("Mr. Gene", "Delaware", "business");
